@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // 팝업 창 띄우기
                 Dialog dialog = new Dialog(MainActivity.this, android.R.style.Theme_Material_Light_Dialog);
+                dialog.setContentView(R.layout.dialog_edit);
             }
         });
     }
